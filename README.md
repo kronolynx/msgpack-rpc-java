@@ -24,27 +24,35 @@ If you use Maven2 repository, these packages will be automatically downloaded.
 
   - JBoss XNIO
 
-## Install
+## Installation
 
-### Maven Repository
+#### Dependency (Maven Artifact)
+[Released to Maven Central](https://search.maven.org/#search%7Cga%7C1%7Ca%3A%22msgpack-rpc%22)
 
-[Maven2 repository](http://msgpack.org/maven2/) is available.
-If your project uses Maven, please add these lines to your pom.xml.
+For Maven users:
+```xml
+<dependency>
+  <groupId>com.github.stampery</groupId>
+  <artifactId>msgpack-rpc</artifactId>
+  <version>0.7.1</version>
+</dependency>
+```
 
-  <repositories>
-    <repository>
-    <id>msgpack.org</id>
-    <name>MessagePack Repository for Maven</name> 
-    <url>http://msgpack.org/maven2/</url>
-    </repository>
-  </repositories>
-  <dependencies>
-    <dependency>
-      <groupId>org.msgpack</groupId>
-      <artifactId>msgpack-rpc</artifactId>
-      <version>0.5.0</version>
-    </dependency>
-  </dependencies>
+For sbt users:
+```java
+libraryDependencies += "com.github.stampery" % "msgpack-rpc" % "0.7.1"
+```
+
+For gradle users:
+```java
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.github.stampery:msgpack-rpc:0.7.1'
+}
+
 
 ## Build from the source
 
