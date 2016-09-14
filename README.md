@@ -59,9 +59,10 @@ dependencies {
 Maven2 is required to build this project.
 The following command builds jar file.
 Then you'll get the .jar file in target directory.
-
+```
   mvn compile
   mvn package
+```
 
 ## License
 
