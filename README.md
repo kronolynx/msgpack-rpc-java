@@ -52,7 +52,7 @@ repositories {
 dependencies {
     compile 'com.github.stampery:msgpack-rpc:0.7.1'
 }
-
+```
 
 ## Build from the source
 
